@@ -1,0 +1,81 @@
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.logo{
+    width: 300px;
+}
+.f1{
+    width: 200px;
+}
+nav{
+    background-color: black ;
+    display: flex;justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.enlace{
+    display: inline-block;
+    color: white;
+    background-color: black;
+    padding: 15px 15px;
+    text-decoration: none;
+    
+}
+.enlace:hover{
+    background-color: rgb(46, 48, 48);
+}
+.columna {
+    background-color: #FCF5ED ;
+    border: 0,5px solid #333;
+    padding: 20px;
+    width: 25%;
+    box-sizing: border-box padding ;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px 2.5px 2.5px;
+}
+p{
+    color: black;
+    font-weight: 300;
+    font-size: smaller ;
+}
+.padre{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tx{
+    color: #CE5A67;
+}
+.text-center{
+    text-align: center;
+}
+.f2{
+    width: 150px;
+}
+.container{
+    background-color: #CE5A67;
+    padding: 10px;
+    width: auto;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    padding: 15px;
+}
+@media (max-width: 700px) {
+    .columna{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .f1{
+        width: 150px;
+    }
+}
+
